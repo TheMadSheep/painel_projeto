@@ -1,0 +1,3 @@
+/home/eduardobarbosa/Documents/painel_projeto/build/CMakeFiles/painel.dir
+/home/eduardobarbosa/Documents/painel_projeto/build/CMakeFiles/edit_cache.dir
+/home/eduardobarbosa/Documents/painel_projeto/build/CMakeFiles/rebuild_cache.dir
