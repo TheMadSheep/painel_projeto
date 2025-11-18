@@ -97,22 +97,118 @@ CMakeFiles/painel.dir/src/matematica.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/painel.dir/src/matematica.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eduardobarbosa/Documents/painel_projeto/src/matematica.cpp -o CMakeFiles/painel.dir/src/matematica.cpp.s
 
+CMakeFiles/painel.dir/imgui/imgui.cpp.o: CMakeFiles/painel.dir/flags.make
+CMakeFiles/painel.dir/imgui/imgui.cpp.o: /home/eduardobarbosa/Documents/painel_projeto/imgui/imgui.cpp
+CMakeFiles/painel.dir/imgui/imgui.cpp.o: CMakeFiles/painel.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eduardobarbosa/Documents/painel_projeto/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/painel.dir/imgui/imgui.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/painel.dir/imgui/imgui.cpp.o -MF CMakeFiles/painel.dir/imgui/imgui.cpp.o.d -o CMakeFiles/painel.dir/imgui/imgui.cpp.o -c /home/eduardobarbosa/Documents/painel_projeto/imgui/imgui.cpp
+
+CMakeFiles/painel.dir/imgui/imgui.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/painel.dir/imgui/imgui.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eduardobarbosa/Documents/painel_projeto/imgui/imgui.cpp > CMakeFiles/painel.dir/imgui/imgui.cpp.i
+
+CMakeFiles/painel.dir/imgui/imgui.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/painel.dir/imgui/imgui.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eduardobarbosa/Documents/painel_projeto/imgui/imgui.cpp -o CMakeFiles/painel.dir/imgui/imgui.cpp.s
+
+CMakeFiles/painel.dir/imgui/imgui_draw.cpp.o: CMakeFiles/painel.dir/flags.make
+CMakeFiles/painel.dir/imgui/imgui_draw.cpp.o: /home/eduardobarbosa/Documents/painel_projeto/imgui/imgui_draw.cpp
+CMakeFiles/painel.dir/imgui/imgui_draw.cpp.o: CMakeFiles/painel.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eduardobarbosa/Documents/painel_projeto/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/painel.dir/imgui/imgui_draw.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/painel.dir/imgui/imgui_draw.cpp.o -MF CMakeFiles/painel.dir/imgui/imgui_draw.cpp.o.d -o CMakeFiles/painel.dir/imgui/imgui_draw.cpp.o -c /home/eduardobarbosa/Documents/painel_projeto/imgui/imgui_draw.cpp
+
+CMakeFiles/painel.dir/imgui/imgui_draw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/painel.dir/imgui/imgui_draw.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eduardobarbosa/Documents/painel_projeto/imgui/imgui_draw.cpp > CMakeFiles/painel.dir/imgui/imgui_draw.cpp.i
+
+CMakeFiles/painel.dir/imgui/imgui_draw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/painel.dir/imgui/imgui_draw.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eduardobarbosa/Documents/painel_projeto/imgui/imgui_draw.cpp -o CMakeFiles/painel.dir/imgui/imgui_draw.cpp.s
+
+CMakeFiles/painel.dir/imgui/imgui_widgets.cpp.o: CMakeFiles/painel.dir/flags.make
+CMakeFiles/painel.dir/imgui/imgui_widgets.cpp.o: /home/eduardobarbosa/Documents/painel_projeto/imgui/imgui_widgets.cpp
+CMakeFiles/painel.dir/imgui/imgui_widgets.cpp.o: CMakeFiles/painel.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eduardobarbosa/Documents/painel_projeto/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/painel.dir/imgui/imgui_widgets.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/painel.dir/imgui/imgui_widgets.cpp.o -MF CMakeFiles/painel.dir/imgui/imgui_widgets.cpp.o.d -o CMakeFiles/painel.dir/imgui/imgui_widgets.cpp.o -c /home/eduardobarbosa/Documents/painel_projeto/imgui/imgui_widgets.cpp
+
+CMakeFiles/painel.dir/imgui/imgui_widgets.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/painel.dir/imgui/imgui_widgets.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eduardobarbosa/Documents/painel_projeto/imgui/imgui_widgets.cpp > CMakeFiles/painel.dir/imgui/imgui_widgets.cpp.i
+
+CMakeFiles/painel.dir/imgui/imgui_widgets.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/painel.dir/imgui/imgui_widgets.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eduardobarbosa/Documents/painel_projeto/imgui/imgui_widgets.cpp -o CMakeFiles/painel.dir/imgui/imgui_widgets.cpp.s
+
+CMakeFiles/painel.dir/imgui/imgui_tables.cpp.o: CMakeFiles/painel.dir/flags.make
+CMakeFiles/painel.dir/imgui/imgui_tables.cpp.o: /home/eduardobarbosa/Documents/painel_projeto/imgui/imgui_tables.cpp
+CMakeFiles/painel.dir/imgui/imgui_tables.cpp.o: CMakeFiles/painel.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eduardobarbosa/Documents/painel_projeto/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/painel.dir/imgui/imgui_tables.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/painel.dir/imgui/imgui_tables.cpp.o -MF CMakeFiles/painel.dir/imgui/imgui_tables.cpp.o.d -o CMakeFiles/painel.dir/imgui/imgui_tables.cpp.o -c /home/eduardobarbosa/Documents/painel_projeto/imgui/imgui_tables.cpp
+
+CMakeFiles/painel.dir/imgui/imgui_tables.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/painel.dir/imgui/imgui_tables.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eduardobarbosa/Documents/painel_projeto/imgui/imgui_tables.cpp > CMakeFiles/painel.dir/imgui/imgui_tables.cpp.i
+
+CMakeFiles/painel.dir/imgui/imgui_tables.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/painel.dir/imgui/imgui_tables.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eduardobarbosa/Documents/painel_projeto/imgui/imgui_tables.cpp -o CMakeFiles/painel.dir/imgui/imgui_tables.cpp.s
+
+CMakeFiles/painel.dir/imgui/backends/imgui_impl_glfw.cpp.o: CMakeFiles/painel.dir/flags.make
+CMakeFiles/painel.dir/imgui/backends/imgui_impl_glfw.cpp.o: /home/eduardobarbosa/Documents/painel_projeto/imgui/backends/imgui_impl_glfw.cpp
+CMakeFiles/painel.dir/imgui/backends/imgui_impl_glfw.cpp.o: CMakeFiles/painel.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eduardobarbosa/Documents/painel_projeto/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/painel.dir/imgui/backends/imgui_impl_glfw.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/painel.dir/imgui/backends/imgui_impl_glfw.cpp.o -MF CMakeFiles/painel.dir/imgui/backends/imgui_impl_glfw.cpp.o.d -o CMakeFiles/painel.dir/imgui/backends/imgui_impl_glfw.cpp.o -c /home/eduardobarbosa/Documents/painel_projeto/imgui/backends/imgui_impl_glfw.cpp
+
+CMakeFiles/painel.dir/imgui/backends/imgui_impl_glfw.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/painel.dir/imgui/backends/imgui_impl_glfw.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eduardobarbosa/Documents/painel_projeto/imgui/backends/imgui_impl_glfw.cpp > CMakeFiles/painel.dir/imgui/backends/imgui_impl_glfw.cpp.i
+
+CMakeFiles/painel.dir/imgui/backends/imgui_impl_glfw.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/painel.dir/imgui/backends/imgui_impl_glfw.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eduardobarbosa/Documents/painel_projeto/imgui/backends/imgui_impl_glfw.cpp -o CMakeFiles/painel.dir/imgui/backends/imgui_impl_glfw.cpp.s
+
+CMakeFiles/painel.dir/imgui/backends/imgui_impl_opengl3.cpp.o: CMakeFiles/painel.dir/flags.make
+CMakeFiles/painel.dir/imgui/backends/imgui_impl_opengl3.cpp.o: /home/eduardobarbosa/Documents/painel_projeto/imgui/backends/imgui_impl_opengl3.cpp
+CMakeFiles/painel.dir/imgui/backends/imgui_impl_opengl3.cpp.o: CMakeFiles/painel.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/eduardobarbosa/Documents/painel_projeto/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/painel.dir/imgui/backends/imgui_impl_opengl3.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/painel.dir/imgui/backends/imgui_impl_opengl3.cpp.o -MF CMakeFiles/painel.dir/imgui/backends/imgui_impl_opengl3.cpp.o.d -o CMakeFiles/painel.dir/imgui/backends/imgui_impl_opengl3.cpp.o -c /home/eduardobarbosa/Documents/painel_projeto/imgui/backends/imgui_impl_opengl3.cpp
+
+CMakeFiles/painel.dir/imgui/backends/imgui_impl_opengl3.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/painel.dir/imgui/backends/imgui_impl_opengl3.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/eduardobarbosa/Documents/painel_projeto/imgui/backends/imgui_impl_opengl3.cpp > CMakeFiles/painel.dir/imgui/backends/imgui_impl_opengl3.cpp.i
+
+CMakeFiles/painel.dir/imgui/backends/imgui_impl_opengl3.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/painel.dir/imgui/backends/imgui_impl_opengl3.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/eduardobarbosa/Documents/painel_projeto/imgui/backends/imgui_impl_opengl3.cpp -o CMakeFiles/painel.dir/imgui/backends/imgui_impl_opengl3.cpp.s
+
 # Object files for target painel
 painel_OBJECTS = \
 "CMakeFiles/painel.dir/main.cpp.o" \
-"CMakeFiles/painel.dir/src/matematica.cpp.o"
+"CMakeFiles/painel.dir/src/matematica.cpp.o" \
+"CMakeFiles/painel.dir/imgui/imgui.cpp.o" \
+"CMakeFiles/painel.dir/imgui/imgui_draw.cpp.o" \
+"CMakeFiles/painel.dir/imgui/imgui_widgets.cpp.o" \
+"CMakeFiles/painel.dir/imgui/imgui_tables.cpp.o" \
+"CMakeFiles/painel.dir/imgui/backends/imgui_impl_glfw.cpp.o" \
+"CMakeFiles/painel.dir/imgui/backends/imgui_impl_opengl3.cpp.o"
 
 # External object files for target painel
 painel_EXTERNAL_OBJECTS =
 
 painel: CMakeFiles/painel.dir/main.cpp.o
 painel: CMakeFiles/painel.dir/src/matematica.cpp.o
+painel: CMakeFiles/painel.dir/imgui/imgui.cpp.o
+painel: CMakeFiles/painel.dir/imgui/imgui_draw.cpp.o
+painel: CMakeFiles/painel.dir/imgui/imgui_widgets.cpp.o
+painel: CMakeFiles/painel.dir/imgui/imgui_tables.cpp.o
+painel: CMakeFiles/painel.dir/imgui/backends/imgui_impl_glfw.cpp.o
+painel: CMakeFiles/painel.dir/imgui/backends/imgui_impl_opengl3.cpp.o
 painel: CMakeFiles/painel.dir/build.make
 painel: /usr/lib/x86_64-linux-gnu/libglfw.so.3.3
 painel: /usr/lib/x86_64-linux-gnu/libGLX.so
 painel: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 painel: CMakeFiles/painel.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/eduardobarbosa/Documents/painel_projeto/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable painel"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/eduardobarbosa/Documents/painel_projeto/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable painel"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/painel.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

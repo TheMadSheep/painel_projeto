@@ -81,12 +81,12 @@ clean: CMakeFiles/painel.dir/clean
 CMakeFiles/painel.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/painel.dir/build.make CMakeFiles/painel.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/painel.dir/build.make CMakeFiles/painel.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/eduardobarbosa/Documents/painel_projeto/build/CMakeFiles --progress-num=1,2,3 "Built target painel"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/eduardobarbosa/Documents/painel_projeto/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9 "Built target painel"
 .PHONY : CMakeFiles/painel.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/painel.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/eduardobarbosa/Documents/painel_projeto/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/eduardobarbosa/Documents/painel_projeto/build/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/painel.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/eduardobarbosa/Documents/painel_projeto/build/CMakeFiles 0
 .PHONY : CMakeFiles/painel.dir/rule

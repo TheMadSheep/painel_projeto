@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/eduardobarbosa/Documents/painel_projeto/include
+CXX_INCLUDES = -I/home/eduardobarbosa/Documents/painel_projeto/imgui -I/home/eduardobarbosa/Documents/painel_projeto/imgui/backends -I/home/eduardobarbosa/Documents/painel_projeto/include
 
 CXX_FLAGS = 
 

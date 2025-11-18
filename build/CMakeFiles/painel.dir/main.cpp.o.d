@@ -153,4 +153,10 @@ CMakeFiles/painel.dir/main.cpp.o: \
  /usr/include/c++/13/bits/locale_facets.tcc \
  /usr/include/c++/13/bits/basic_ios.tcc \
  /usr/include/c++/13/bits/ostream.tcc /usr/include/c++/13/istream \
- /usr/include/c++/13/bits/istream.tcc
+ /usr/include/c++/13/bits/istream.tcc \
+ /home/eduardobarbosa/Documents/painel_projeto/imgui/imgui.h \
+ /home/eduardobarbosa/Documents/painel_projeto/imgui/imconfig.h \
+ /usr/lib/gcc/x86_64-linux-gnu/13/include/float.h /usr/include/string.h \
+ /usr/include/strings.h /usr/include/assert.h \
+ /home/eduardobarbosa/Documents/painel_projeto/imgui/backends/imgui_impl_glfw.h \
+ /home/eduardobarbosa/Documents/painel_projeto/imgui/backends/imgui_impl_opengl3.h

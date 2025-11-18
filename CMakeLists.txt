@@ -1,22 +1,46 @@
 cmake_minimum_required(VERSION 3.28.3)
 
-# Definir o nome do projeto
+# Nome do projeto
 project(Painel)
 
-# Procurar pela instalação do GLFW
-find_package(glfw3 REQUIRED)
+set(CMAKE_CXX_STANDARD 17)
 
-# Procurar pela instalação do OpenGL (geralmente disponível por padrão)
+# Procurar por dependências
+find_package(glfw3 REQUIRED)
 find_package(OpenGL REQUIRED)
 
-# Criar o executável 'painel' com os arquivos fonte
-add_executable(painel main.cpp src/matematica.cpp)
+# Diretórios do ImGui
+include_directories(
+    ${CMAKE_SOURCE_DIR}/imgui
+    ${CMAKE_SOURCE_DIR}/imgui/backends
+)
 
-# Incluir diretórios de cabeçalhos
+# Fontes do ImGui
+set(IMGUI_SOURCES
+    ${CMAKE_SOURCE_DIR}/imgui/imgui.cpp
+    ${CMAKE_SOURCE_DIR}/imgui/imgui_draw.cpp
+    ${CMAKE_SOURCE_DIR}/imgui/imgui_widgets.cpp
+    ${CMAKE_SOURCE_DIR}/imgui/imgui_tables.cpp
+    ${CMAKE_SOURCE_DIR}/imgui/backends/imgui_impl_glfw.cpp
+    ${CMAKE_SOURCE_DIR}/imgui/backends/imgui_impl_opengl3.cpp
+)
+
+# Criar o executável com todos os arquivos
+add_executable(painel
+    main.cpp
+    src/matematica.cpp
+    ${IMGUI_SOURCES}
+)
+
+# Incluir diretórios de cabeçalhos do seu projeto
 target_include_directories(painel PRIVATE include)
 
-# Incluir o diretório do GLFW
-target_link_libraries(painel PRIVATE glfw)
-
-# Incluir a biblioteca OpenGL
-target_link_libraries(painel PRIVATE OpenGL::GL)
+# Linkar bibliotecas
+target_link_libraries(painel
+    PRIVATE
+    glfw
+    OpenGL::GL
+    pthread
+    X11
+    dl
+)
